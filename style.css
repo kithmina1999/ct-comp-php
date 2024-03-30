@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.title-1{
+    padding-top: 10px;
+}
+.text-gray{
+    color: #464646db;
+}
