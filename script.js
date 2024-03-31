@@ -73,3 +73,7 @@ function logIn(){
     r.open("POST","logInProcess.php",true);
     r.send(f);
 }
+
+function showPassword(){
+   alert("passowrd test")
+}

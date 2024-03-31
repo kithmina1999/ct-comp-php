@@ -22,7 +22,7 @@
     <div>
         <?php include "header.php" ?>
     </div>
-    <hr />
+   
 
     <div class="col-12 justify-content-center">
         <div class="row mb-3">
@@ -78,25 +78,25 @@
     <hr />
     <div class="col-12">
         <!-- Carousel -->
-        <div class="row">
+        <div class="row h-75">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 " src="./resources/carousel-1.jpg" alt="carousel-1.jpeg" />
+                        <img class="d-block mw-100 " src="./resources/carousel-1.jpg" alt="carousel-1.jpeg" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Tokyo (Japan)</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 " src="./resources/carousel-2.jpg" alt="carousel-2.jpeg" />
+                        <img class="d-block mw-100 " src="./resources/carousel-2.jpg" alt="carousel-2.jpeg" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Tokyo (Japan)</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="./resources/carousel-3.jpg" alt="carousel-3.jpeg" />
+                        <img class="d-block mw-100" src="./resources/carousel-3.jpg" alt="carousel-3.jpeg" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Tokyo (Japan)</h5>
                             <p>Some representative placeholder content for the first slide.</p>
@@ -115,9 +115,9 @@
     for ($x = 0; $x < $cn; $x++) {
         $cd = $rs->fetch_assoc();
         ?>
-        <div class="col-12 ">
+        <div class="col-12 " style="background-color: #cf8a8a3a;">
             <!-- Category -->
-            <div class="row mb-3">
+            <div class="row ">
                 <div class="d-flex justify-content-start p-2 gap-4 align-items-center ms-5">
                     <a href="#" class="text-dark fs-5 fw-bold text-decoration-none">
                         <?php echo $cd["cat_name"]; ?>
@@ -126,9 +126,9 @@
                 </div>
             </div>
             <!-- Products -->
-            <div class="row mb-3">
+            <div class="row ">
                 <div class="col-12">
-                    <div class="row border border-dark m-1">
+                    <div class="row border border-opacity-50 border-danger  m-1 op" style="background-color: #F4F4F4;">
                         <div class="col-12 p-1">
                             <div class="row justify-content-center gap-4">
                                 <!-- Product Card -->
